@@ -29,15 +29,14 @@ public class Main {
                 true
         );
 
-        System.out.println(legoOne.getName());
-
-        Cart cart = new cart();
+        Cart cart = new Cart();
         cart.add(legoOne, 1);
         cart.add(legoTwo, 1);
         cart.add(legoThree, 1);
 
         System.out.println(cart.getAmount());
-
+        System.out.println(cart.getDiscountAmount());
+        System.out.println(cart.getCount());
 
 
     }
